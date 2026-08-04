@@ -8,7 +8,7 @@
 
 # 📌 Project Overview
 
-This project demonstrates an end-to-end Supply Chain Analytics workflow, starting from raw operational data and transforming it into business-ready analytical datasets using a modern Medallion Architecture (Bronze → Silver → Gold).
+This project demonstrates an end-to-end Supply Chain Analytics workflow, starting from raw operat ional data and transforming it into business-ready analytical datasets using a modern Medallion Architecture (Bronze → Silver → Gold).
 
 The transformed data is then modeled into a Star Schema and visualized through interactive Power BI dashboards to support inventory planning, sales monitoring, stock movement analysis, and supply chain decision-making.
 
