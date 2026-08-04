@@ -1,4 +1,4 @@
-# 📦 Supply Chain Analytics & Inventory Optimization
+# 📦 Supply Chain Analytics & Inventory Optimization | Python, SQL, DuckDB, Power BI
 
 > End-to-End Supply Chain Analytics Pipeline using Python, SQL, DuckDB, and Power BI
 
