@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.duckdb
+*.sqlite
+*.log
+.venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
