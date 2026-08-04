@@ -43,7 +43,7 @@ This project builds an automated analytics pipeline that:
 The project follows a Medallion Architecture (Bronze → Silver → Gold) to transform raw operational data into analytics-ready datasets for reporting and decision-making.
 
 <p align="center">
-  <img src="images/architecture.png" alt="Supply Chain Analytics Architecture" width="950"/>
+  <img src="docs/architecture.png" alt="Supply Chain Analytics Architecture" width="950"/>
 </p>
 ---
 
