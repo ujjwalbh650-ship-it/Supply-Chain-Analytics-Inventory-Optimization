@@ -9,20 +9,18 @@ def main() -> None:
     con = duckdb.connect(str(db_path))
 
     con.execute("""
-    CREATE OR REPLACE TABLE bronze_sales_transactions_lite AS
+    CREATE OR REPLACE TABLE silver_location_master_lite AS
     SELECT
-        transaction_id,
-        transaction_ts,
-        channel,
-        location_id,
-        sku,
-        qty,
-        unit_price
-    FROM raw_sales_transactions_lite;
+        UPPER(TRIM(location_id)) AS location_id,
+        TRIM(location_name) AS location_name,
+        UPPER(TRIM(location_type)) AS location_type,
+        TRIM(region) AS region
+    FROM bronze_location_master_lite;
     """)
 
     con.close()
-    print("✅ Created bronze_sales_transactions_lite")
+
+    print("🟩 Created silver_location_master_lite")
 
 
 if __name__ == "__main__":
