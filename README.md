@@ -235,26 +235,19 @@ Provides high-level business KPIs
 
 ---
 
-### Inventory Analytics
+## 📊 Power BI Dashboards
 
-Tracks
+### 1. Executive Dashboard
+Provides a high-level view of sales and inventory performance.
+It helps management quickly understand overall business performance and identify areas that need attention.
 
-- Inventory Trends
-- Stock Availability
-- Product Coverage
-- Inventory Levels
+![Executive Dashboard](images/executive_dashboard.png)
 
----
+### 2. Inventory Optimization Dashboard
+Focuses on inventory levels, stock availability, and inventory exposure.
+It helps the supply chain team identify low-stock and overstock situations and make better replenishment decisions.
 
-### Movement Analytics
-
-Analyzes
-
-- Stock Inflow
-- Stock Outflow
-- Inventory Adjustments
-- Warehouse Movements
-
+![Inventory Optimization](images/inventory_optimization.png)
 ---
 
 # 🛠 Technologies Used
