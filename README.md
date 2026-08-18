@@ -220,7 +220,7 @@ Allows supply chain teams to identify
 - Overstock
 - Inventory exposure
 - Replenishment opportunities
-
+![Advanced Inventory Exposure Table](adv_inventory_expo.png)
 ---
 
 # 📈 Power BI Dashboards
