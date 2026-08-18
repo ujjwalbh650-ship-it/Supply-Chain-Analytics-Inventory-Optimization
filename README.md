@@ -45,7 +45,12 @@ The project follows a Medallion Architecture (Bronze → Silver → Gold) to tra
 <p align="center">
   <img src="docs/architecture.png" alt="Supply Chain Analytics Architecture" width="950"/>
 </p>
----
+The project follows a three-layer data architecture.
+Bronze: Stores the original raw data without changing it.
+Silver: Cleans and standardizes the data so it can be trusted.
+Gold: Combines the cleaned data into business-ready fact and dimension tables.
+Star Schema: Connects the fact and dimension tables for efficient analysis.
+Power BI: Uses this model to create interactive dashboards and business KPIs.
 
 # 📂 Project Structure
 
