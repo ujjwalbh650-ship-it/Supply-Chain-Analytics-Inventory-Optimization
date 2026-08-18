@@ -113,7 +113,7 @@ Characteristics
 ✔ No Cleaning
 
 ✔ Source Copy
-
+Result: We have a reliable copy of the original data that can always be traced back to the source
 ---
 
 # 🥈 Silver Layer
@@ -131,9 +131,7 @@ Data transformations include
 - Remove formatting inconsistencies
 - Null handling
 
-Output
-
-Clean business-ready tables.
+Result: The data becomes clean, consistent, and ready for analytical modeling.
 
 ---
 
@@ -141,7 +139,7 @@ Clean business-ready tables.
 
 Purpose
 
-Create analytics-ready data model.
+The Gold layer converts the cleaned data into an analytical model using fact and dimension tables.
 
 ### Dimension Tables
 
@@ -159,6 +157,8 @@ Create analytics-ready data model.
 | Fact Inventory Movements | Stock Movements |
 | Advanced Fact Inventory Exposure | Weekly Inventory Exposure |
 
+Fact tables store business events and measurements,
+while dimension tables provide the descriptive information used to analyze those measurements.
 ---
 
 # ⭐ Star Schema
@@ -249,7 +249,66 @@ It helps the supply chain team identify low-stock and overstock situations and m
 
 ![Inventory Optimization](images/inventory_optimization.png)
 ---
+## 🧩  How This Project Solves the Problem
 
+The main problem was that supply chain data was coming from multiple operational sources and was not directly ready for analysis.
+
+This project solves the problem through a step-by-step analytics pipeline:
+
+- **Bronze Layer:** Stores the original operational data without changing it.
+- **Silver Layer:** Cleans and standardizes the data by handling spaces, formats, data types, nulls, and business rules.
+- **Gold Layer:** Converts the cleaned data into analytical fact and dimension tables.
+- **Star Schema:** Connects sales, inventory, and movement data with product, location, and date dimensions.
+- **Advanced Inventory Exposure:** Combines weekly sales, inventory, and stock movements into one business-level table.
+- **Power BI:** Converts the analytical data into interactive dashboards and KPIs.
+
+As a result, the business gets a single and structured view of sales, inventory, and stock movements instead of working with disconnected raw datasets.
+
+The solution helps supply chain teams monitor inventory levels, identify low-stock and overstock situations, understand stock movements, and support better replenishment decisions.
+
+---
+
+## 🎯  Key Business Questions
+
+The project is designed to answer important supply chain and inventory questions such as:
+
+### Sales Performance
+- What are the total sales and units sold?
+- Which products and locations are contributing to sales?
+
+### Inventory Management
+- How much inventory is currently available?
+- Which products or locations have low stock?
+- Where do we have potential overstock?
+- What is the level of product availability and coverage?
+
+### Stock Movement
+- How much stock is coming into the warehouse?
+- How much stock is going out?
+- What is the net stock movement?
+
+
+### Inventory Exposure
+- Where are potential replenishment opportunities?
+- Which areas may require attention from the supply chain team?
+
+---
+
+
+
+### 💡 Overall Business Impact
+
+The project transforms raw operational data into a structured analytical solution that helps the business:
+
+- Monitor sales performance
+- Track inventory levels
+- Identify low-stock and overstock situations
+- Understand stock movement
+- Monitor product availability
+- Identify inventory exposure
+- Support replenishment decisions
+- Make data-driven supply chain decisions
+  
 # 🛠 Technologies Used
 
 | Tool | Purpose |
