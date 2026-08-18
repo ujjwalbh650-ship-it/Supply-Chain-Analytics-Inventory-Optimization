@@ -113,6 +113,7 @@ Characteristics
 ✔ No Cleaning
 
 ✔ Source Copy
+![Bronze Layer Code](images/bronze_code.png)
 Result: We have a reliable copy of the original data that can always be traced back to the source
 ---
 
@@ -130,7 +131,7 @@ Data transformations include
 - Data Type Conversion
 - Remove formatting inconsistencies
 - Null handling
-
+![Silver Layer Code](images/silver_code.png)
 Result: The data becomes clean, consistent, and ready for analytical modeling.
 
 ---
@@ -157,6 +158,7 @@ The Gold layer converts the cleaned data into an analytical model using fact and
 | Fact Inventory Movements | Stock Movements |
 | Advanced Fact Inventory Exposure | Weekly Inventory Exposure |
 
+![Gold Layer Code](images/gold_code.png)
 Fact tables store business events and measurements,
 while dimension tables provide the descriptive information used to analyze those measurements.
 ---
